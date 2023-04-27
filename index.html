@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <title>Portifolio</title>
+</head>
+
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav_logo">Portifólio</a>
+      </div>
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link active">Inicio</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">Sobre</a></li>
+          <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+          <li class="nav_item"><a href="#work" class="nav_link">Projetos</a></li>
+          <li class="nav_item"><a href="#contact" class="nav_link">Contato</a></li>
+        </ul>
+      </div>
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home bd-grid" id="home">
+      <div class="home_data">
+        <h1 class="home_title">Olá, <br> eu sou <span class="home_title-color">Ulisses</span></h1>
+        <a href="#" class="button">Contato</a>
+      </div>
+
+      <div class="home__social">
+        <a href="#" class="home_social-icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" class="home_social-icon"><i class="bx bxl-behance"></i></a>
+        <a href="#" class="home_social-icon"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home_img">
+        <img src="assets/img/perfil.png" alt="">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">Sobre</h2>
+      <div class="about_container bd-grid">
+        <div class="about_img">
+          <img src="assets/img/sobre.png" alt="">
+        </div>
+        <div>
+          <h2 class="about_subtitle">...</h2>
+          <p class="about_text">Meu nome é Ulisses e tenho 20 anos. Atualmente, estou cursando Ciência da Computação na Universidade de Vila Velha (UVV), onde tenho aprendido uma variedade de habilidades e conhecimentos relacionados à área de tecnologia..</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills_container bd-grid">
+        <div>
+          <h2 class="skills_subtitle">Skills</h2>
+          <p class="skills_text">Embora minhas habilidades em HTML, CSS, Java e UX ainda sejam limitadas, estou trabalhando constantemente para melhorá-las por meio de projetos pessoais e estudos contínuos.</p>
+          <div class="skills_data">
+            <div class="skills_names">
+              <i class='bx bxl-html5 skills_icon'></i>
+              <span class="skills_name">HTML5</span>
+            </div>
+            <div class="skills_bar skills_html">
+
+            </div>
+            <div>
+              <span class="skills_percentage">30%</span>
+            </div>
+          </div>
+          <div class="skills_data">
+            <div class="skills_names">
+              <i class='bx bxl-css3 skills_icon'></i>
+              <span class="skills_name">CSS3</span>
+            </div>
+            <div class="skills_bar skills_css">
+
+            </div>
+            <div>
+              <span class="skills_percentage">22%</span>
+            </div>
+          </div>
+          <div class="skills_data">
+            <div class="skills_names">
+              <i class='bx bxl-javascript skills_icon'></i>
+              <span class="skills_name">JAVASCRIPT</span>
+            </div>
+            <div class="skills_bar skills_js">
+
+            </div>
+            <div>
+              <span class="skill__percentage">5%</span>
+            </div>
+          </div>
+          <div class="skills_data">
+            <div class="skills_names">
+              <i class='bx bxs-paint skills_icon'></i>
+              <span class="skills_name">UX/UI</span>
+            </div>
+            <div class="skills_bar skills_ux">
+
+            </div>
+            <div>
+              <span class="skills_percentage">30%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/compiuter.png" alt="" class="skills_img">
+        </div>
+      </div>
+    </section>
+
+  <section class="projetos" id="contact">
+      <h2 class="section-title">Projetos</h2>
+
+      <body>
+       <div class="container">
+         <section class="projects">
+          <div class="project">
+            <a href="https://github.com/ulisseskuster/SIMULADO" target="_blank">
+              <img src="assets/img/zap.png" alt="Imagem do Projeto 1">
+              <h2>Simulado B1</h2>
+              <p>Meu primeiro projeto</p>
+            </a>
+          </div>
+          <div class="project">
+            <a href="https://github.com/ulisseskuster/AVALIACAO" target="_blank">
+              <img src="assets/img/zap2.png" alt="Imagem do Projeto 2">
+              <h2>Avaliação B1</h2>
+              <p>Meu segundo projeto</p>
+            </a>
+          </div>
+        </section>
+      </div>
+    </body>
+   </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contato</h2>
+
+      <div class="contact_container bd-grid">
+        <form action="" class="contact_form">
+          <input type="text" placeholder="Name" class="contact_input">
+          <input type="mail" placeholder="Email" class="contact_input">
+          <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+          <input type="button" value="Enviar" class="contact_button button">
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="titulo_footer">Ulisses</p>
+    <div class="footer_icones">
+      <a href="#" class="icone_footer"><i class='bx bxl-facebook'></i></a>
+      <a href="#" class="icone_footer"><i class='bx bxl-instagram'></i></a>
+      <a href="#" class="icone_footer"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <p>&#169; 2023 copyright all right reserved</p>
+  </footer>
+
+</body>
+</html>
